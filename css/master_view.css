@@ -1,0 +1,34 @@
+.circular {
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	object-fit: cover;
+}
+
+.self_banner{
+	padding-top: 1%;
+}
+
+
+.self_banner_bottom_gap{
+	padding-bottom: 3%;
+}
+
+.fab_buttons_place_master_view{
+	position: relative;
+	top: -20px;
+}
+
+.pretty_clean{
+	margin: 5px;
+}
+
+
+.contact-information{
+	margin: 5px;
+}
