@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<meta name="Author" content="Annim Banerjee">
+		<meta name="Description" content="My Blog, Annim Banerjee, Annim Banerjee – Communicate, Meet, Grow, where I Strive for new technologies, keen 
+                        inclination in embedded world. Excites me to explore new technologies or the 
+                        technologies which can be employed to give solution. Bringup of schematic and PCB designing 2Layers, 4 Layers, 
+                        on Cadsoft Eagle, Altium Designer software. Writing firmware on the top of it. Worked with very sleek and low energy Wifi 
+                        chip and micro controllers. Worked with cutting edge hot Smart Bluetooth Technology from Nordic chipset, nrf51822 SoC chip, 
+                        atmel MCU families, stm8 mcu. Embedded Linux solutions using SAMA5, Allwinner processors. Providing web end for embedded based project, using HMVC around Cideigniter, MongoDB, Python, Bottle, and Django. Providing mobile solutions to complete the vertical over android platform for now.
+                    	">
+		<meta name="Keywords" content="embedded, technology, web development, linux, sama5, allwinner, v3s, camera,
+		bluetooth development, mobile, app development, mobile app development, embedded linux, linux,
+		desktop app development, desktop, app, development, nrf, nrf51, codeigniter, nokia, asha, 
+		opengl, win32, windows, templates, weather, pilot, weatherpilot, pcb, design, layout,
+		electronics, systems, embedded systems, calculator, pcba, printed circuit board,
+		assembly, cad, eeweb, electronicproducts, beyond-innovation.org, annimbanerjee">
+		<meta name="revisit-after" content="2 days">
+		<meta name="distribution" content="web">
+		<META NAME="ROBOTS" CONTENT="INDEX, NOFOLLOW">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Annim Banerjee - Embedded Developer | Embedded Hardware Engineer | Full Stack Developer | Android App Developer </title>
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+		<link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="plugins/node-waves/waves.css" rel="stylesheet" />
+		<link href="plugins/animate-css/animate.css" rel="stylesheet" />
+		<link href="plugins/light-gallery/css/lightgallery.css" rel="stylesheet">
+		<link href="plugins/material-design-preloader/md-preloader.css" rel="stylesheet" />
+		<link href="plugins/morrisjs/morris.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/themes/all-themes.css" rel="stylesheet" />
+		<link href="css/master_view.css" rel="stylesheet" />
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css" />
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+    </head>
+    <body class="theme-red ">
+
+		<div class="row clearfix self_banner_bottom_gap bg-teal">
+
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12  self_banner ">
+				<center>
+					<img src="images/annim.jpg" alt="..." class="circular" width="250px" height="250px">				
+				</center>
+				<center>
+					<h3>Annim Banerjee - Embedded Engineer</h3>
+					<h5>Embedded Hardware Engineer | Contract to Hire</h5>
+				</center>
+				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				
+			</div>
+
+		</div>
+		
+		<center>
+	        <div class="row clearfix">			
+	        	<div class="col-lg-4 col-md-4 col-sm-12 "></div>        	
+	        	<div class="col-lg-4 col-md-4 col-sm-12 ">        	
+	        		<div class="row clearfix">		
+	        			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<button type="button" class="btn btn-default btn-circle-lg waves-effect waves-circle waves-float fab_buttons_place_master_view" onclick='window.open("http://pixma.github.io/docs/AnnimBanerjeeCV.pdf");'>
+			                    <i class="fa fa-sticky-note fa-5x" aria-hidden="true"></i>
+			                </button>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<button type="button" class="btn btn-default btn-circle-lg waves-effect waves-circle waves-float fab_buttons_place_master_view" onclick='window.open("https://github.com/pixma");'>
+			                    <i class="fa fa-github fa-5x"></i>
+			                </button>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<button type="button" class="btn btn-default btn-circle-lg waves-effect waves-circle waves-float fab_buttons_place_master_view" onclick='window.open("https://twitter.com/annimbanerji");'>
+			                    <i class="fa fa-twitter fa-5x" aria-hidden="true"></i>
+			                </button>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<button type="button" class="btn btn-default btn-circle-lg waves-effect waves-circle waves-float fab_buttons_place_master_view" onclick='window.open("https://www.linkedin.com/in/annimbanerjee");'>
+			                    <i class="fa fa-linkedin fa-5x" aria-hidden="true"></i>
+			                </button>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<button type="button" class="btn btn-default btn-circle-lg waves-effect waves-circle waves-float fab_buttons_place_master_view" onclick='window.open("https://medium.com/@annimbanerji");'>
+			                    <i class="fa fa-medium fa-5x" aria-hidden="true"></i>
+			                </button>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<button type="button" class="btn btn-default btn-circle-lg waves-effect waves-circle waves-float fab_buttons_place_master_view" onclick='window.open("https://angel.co/annim-banerjee");'>
+			                    <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
+			                </button>
+						</div>
+	        		</div>
+	        	</div>
+	        	<div class="col-lg-4 col-md-4 col-sm-12 "></div>
+			</div>
+		</center>
+
+		<div class="row clearfix">
+			<div class="col-lg-4 col-md-4 col-sm-12 "></div>
+			<div class="col-lg-4 col-md-4 col-sm-12 ">
+				<div class="card contact-information">
+                    <div class="header">
+                        <h2>
+                            Skill Card, Work delivered<small>and the hi-phy talks below...</small>
+                        </h2>                        
+                    </div>
+                </div>
+
+
+                <div class="row clearfix">
+                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">                        		
+                		<div class="card contact-information">
+		                    <div class="body bg-red">
+		                    	Embedded controller Firmware Writting.
+		                    </div>
+		                </div>
+                	</div>
+
+                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 align-justify">
+                		<div class="card contact-information">
+		                    <div class="body bg-green">
+		                    	FreeRTOS, Contiki, Embedded Linux, OpenWRT, Multistrap, Sensor Device Drivers, Root file system, IoT Protocols, MQTT, Protobuf, Signal R(C#)...
+		                    </div>
+		                </div>
+                	</div>
+                </div>
+
+                <div class="row clearfix">
+                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">                        		
+                		<div class="card contact-information">
+		                    <div class="body bg-blue-grey">
+		                    	Schematic and PCB Designing, High Speed Design including LVDS, HDMI, USB, Camera MIPI, DVP, SD Card, DDR2, DDR3, LPDDR2, LPDDR3, eMMC.
+		                    </div>
+		                </div>
+                	</div>
+
+                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 align-justify">
+                		<div class="card contact-information">
+		                    <div class="body bg-orange">
+		                    	BLE(Bluetooth Low Energy) – Nordic Chipset: NRF51822, NRF52, TI CC2650, CC2541, CC2640 , or make them NIC for your embedded system.
+		                    </div>
+		                </div>
+                	</div>
+                </div>
+
+                <div class="row clearfix">
+                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 align-justify">                        		
+                		<div class="card contact-information">
+		                    <div class="body bg-amber">
+		                    	Full Stack Web Developer, HMVC, HTML, CSS, Codeigniter,JQuery, PHP, Python, Django, DRF, MongoDB, Rookie MEAN, MySQL.
+		                    </div>
+		                </div>
+                	</div>
+
+                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 align-justify">
+                		<div class="card contact-information">
+		                    <div class="body bg-pink">
+		                    	Old school MASM, C, C++, VC++, Win32 API, OpenGL, DWM, MFC, C#, Managed and Unmanaged DLL, these were my hidden skill-set which i have mentioned here and they are not hidden anymore!
+		                    </div>
+		                </div>
+                	</div>
+                </div>
+
+                <div class="row clearfix">
+                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">                        		
+                		<div class="card contact-information">
+		                    <div class="body bg-purple">
+		                    	Android Application Developer
+		                    </div>
+		                </div>
+                	</div>
+
+                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 align-justify">
+                		<div class="card contact-information">
+		                    <div class="body bg-teal">
+		                    	Hands on Experience in carrying out large scale IoT projet production phase.
+		                    </div>
+		                </div>
+                	</div>
+                </div>
+
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 "></div>
+		</div>
+
+		<div class="row clearfix">
+			<div class="col-lg-4 col-md-4 col-sm-12 "></div>
+			<div class="col-lg-4 col-md-4 col-sm-12 ">
+				<div class="card contact-information">
+                    <div class="header">
+                        <h2>
+                            Contact Information<small>Description below...</small>
+                        </h2>
+                        
+                    </div>
+                    <div class="body">
+                    	<div class="row clearfix">
+                        	<div class="col-lg-1 col-md-1 col-sm-2 col-xs-1">
+                        		<i class="material-icons">web</i>
+                        	</div>
+                        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 align-left">https://pixma.github.io/blog</div>
+                        	<div class="col-lg-5 col-md-3 col-sm-3 col-xs-3 align-right"><a href="https://pixma.github.io/index_blog.html">Blog</a></div>
+                        </div>
+                        <div class="row clearfix">
+                        	<div class="col-lg-1 col-md-1 col-sm-2 col-xs-1">
+                        		<i class="material-icons">email</i>
+                        	</div>
+                        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 align-left">pixma38@gmail.com</div>
+                        	<div class="col-lg-5 col-md-3 col-sm-3 col-xs-3 align-right"><a href="mailto:pixma38@gmail.com">Primary</a></div>
+                        </div>
+                        <div class="row clearfix">
+                        	<div class="col-lg-1 col-md-1 col-sm-2 col-xs-1">
+                        		<i class="material-icons">location_on</i>
+                        	</div>
+                        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 align-left">INDIA, West Bengal, Kolkata</div>
+                        	<div class="col-lg-5 col-md-3 col-sm-3 col-xs-3 align-right">Current</div>
+                        </div>
+                        <div class="row clearfix">
+                        	<div class="col-lg-1 col-md-1 col-sm-2 col-xs-1">
+                        		<i class="material-icons">web</i>
+                        	</div>
+                        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 align-left">Projects</div>
+                        	<div class="col-lg-5 col-md-3 col-sm-3 col-xs-3 align-right"><a href="https://pixma.github.io/portfolio.html">Some of Them</a></div>
+                        </div>
+                    </div>
+                </div>
+				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 "></div>
+		</div>
+
+		
+	
+	
+		<script src="plugins/jquery/jquery.min.js"></script>
+		<script src="plugins/bootstrap/js/bootstrap.js"></script>
+		<script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+		<script src="plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+		<script src="plugins/bootstrap-notify/bootstrap-notify.js"></script>
+		<script src="plugins/node-waves/waves.js"></script>
+		<script src="plugins/jquery-countto/jquery.countTo.js"></script>
+		<script src="plugins/raphael/raphael.min.js"></script>
+		<script src="plugins/morrisjs/morris.js"></script>
+		<script src="plugins/chartjs/Chart.bundle.js"></script>
+		<script src="plugins/flot-charts/jquery.flot.js"></script>
+		<script src="plugins/flot-charts/jquery.flot.resize.js"></script>
+		<script src="plugins/flot-charts/jquery.flot.pie.js"></script>
+		<script src="plugins/flot-charts/jquery.flot.categories.js"></script>
+		<script src="plugins/flot-charts/jquery.flot.time.js"></script>
+		<script src="plugins/jquery-sparkline/jquery.sparkline.js"></script>
+		<script src="plugins/light-gallery/js/lightgallery-all.js"></script>
+		<script src="js/pages/medias/image-gallery.js"></script>
+		<script src="js/admin.js"></script>
+		<script src="js/pages/ui/notifications.js"></script>
+		<script src="js/pages/index.js"></script>
+		<script src="js/demo.js"></script>
+		<script src="https://use.fontawesome.com/3bea3a632a.js"></script>
+		<script src="js/script.js"></script>
+  
+
+    
+	</body>
+	
+</html>
