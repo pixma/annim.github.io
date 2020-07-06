@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-		<meta name="Author" content="Annim Banerjee">
-		<meta name="Description" content="My Blog, Annim Banerjee, Annim Banerjee – Communicate, Meet, Grow, where I Strive for new technologies, keen 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta name="Author" content="Annim Banerjee">
+    <meta name="Description" content="My Blog, Annim Banerjee, Annim Banerjee – Communicate, Meet, Grow, where I Strive for new technologies, keen 
                         inclination in embedded world. Excites me to explore new technologies or the 
                         technologies which can be employed to give solution. Bringup of schematic and PCB designing 2Layers, 4 Layers, 
                         on Cadsoft Eagle, Altium Designer software. Writing firmware on the top of it. Worked with very sleek and low energy Wifi 
                         chip and micro controllers. Worked with cutting edge hot Smart Bluetooth Technology from Nordic chipset, nrf51822 SoC chip, 
                         atmel MCU families, stm8 mcu. Embedded Linux solutions using SAMA5, Allwinner processors. Providing web end for embedded based project, using HMVC around Cideigniter, MongoDB, Python, Bottle, and Django. Providing mobile solutions to complete the vertical over android platform for now.
                     	">
-		<meta name="Keywords" content="embedded, technology, web development, linux, sama5, allwinner, v3s, camera,
+    <meta name="Keywords" content="embedded, technology, web development, linux, sama5, allwinner, v3s, camera,
 		bluetooth development, mobile, app development, mobile app development, embedded linux, linux,
 		desktop app development, desktop, app, development, nrf, nrf51, codeigniter, nokia, asha, 
 		opengl, win32, windows, templates, weather, pilot, weatherpilot, pcb, design, layout,
 		electronics, systems, embedded systems, calculator, pcba, printed circuit board,
 		assembly, cad, eeweb, electronicproducts, beyond-innovation.org, annimbanerjee">
-		<meta name="revisit-after" content="2 days">
-		<meta name="distribution" content="web">
-		<META NAME="ROBOTS" CONTENT="INDEX, NOFOLLOW">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Annim Banerjee - Embedded Developer | Embedded Hardware Engineer | Full Stack Developer | Android App Developer </title>
+    <meta name="revisit-after" content="2 days">
+    <meta name="distribution" content="web">
+    <META NAME="ROBOTS" CONTENT="INDEX, NOFOLLOW">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Annim Banerjee - Embedded Developer | Embedded Hardware Engineer | Full Stack Developer | Android App Developer </title>
 
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-		<link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
-		<!-- <link href="plugins/node-waves/waves.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- <link href="plugins/node-waves/waves.css" rel="stylesheet" />
 		<link href="plugins/animate-css/animate.css" rel="stylesheet" />
 		<link href="plugins/light-gallery/css/lightgallery.css" rel="stylesheet">
 		<link href="plugins/material-design-preloader/md-preloader.css" rel="stylesheet" />
@@ -39,496 +40,565 @@
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css" /> -->
 
-	    <style type="text/css">
+    <style type="text/css">
+        @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+        html {
+            position: relative;
+            overflow-x: hidden !important;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Quicksand', sans-serif;
+            color: #324e63;
+        }
+        
+        a,
+        a:hover {
+            text-decoration: none;
+        }
+        
+        .icon {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            stroke-width: 0;
+            stroke: currentColor;
+            fill: currentColor;
+        }
+        
+        .wrapper {
+            width: 100%;
+            width: 100%;
+            height: auto;
+            min-height: 100vh;
+            padding: 50px 20px;
+            padding-top: 100px;
+            display: flex;
+            background-image: linear-gradient(-20deg, #282829 0%, #5C5C5E 100%);
+            display: flex;
+            background-image: linear-gradient(-20deg, #282829 0%, #5C5C5E 100%);
+        }
+        
+        @media screen and (max-width: 768px) {
+            .wrapper {
+                height: auto;
+                min-height: 100vh;
+                padding-top: 100px;
+            }
+        }
+        
+        .profile-card {
+            width: 100%;
+            min-height: 460px;
+            margin: auto;
+            box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 1);
+            background: #fff;
+            border-radius: 12px;
+            max-width: 700px;
+            position: relative;
+        }
+        
+        .profile-card.active .profile-card__cnt {
+            filter: blur(6px);
+        }
+        
+        .profile-card.active .profile-card-message,
+        .profile-card.active .profile-card__overlay {
+            opacity: 1;
+            pointer-events: auto;
+            transition-delay: .1s;
+        }
+        
+        .profile-card.active .profile-card-form {
+            transform: none;
+            transition-delay: .1s;
+        }
+        
+        .profile-card__img {
+            width: 150px;
+            height: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            transform: translateY(-50%);
+            border-radius: 50%;
+            overflow: hidden;
+            position: relative;
+            z-index: 4;
+            box-shadow: 0px 5px 50px 0px #5C5C5E, 0px 0px 0px 7px rgba(92, 92, 94, 0.5);
+        }
+        
+        @media screen and (max-width: 576px) {
+            .profile-card__img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+        
+        .profile-card__img img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        
+        .profile-card__cnt {
+            margin-top: -35px;
+            text-align: center;
+            padding: 0 20px;
+            padding-bottom: 40px;
+            transition: all .3s;
+        }
+        
+        .profile-card__name {
+            font-weight: 700;
+            font-size: 24px;
+            color: #282829;
+            margin-bottom: 15px;
+        }
+        
+        .profile-card__txt {
+            font-size: 18px;
+            font-weight: 500;
+            color: #324e63;
+            margin-bottom: 15px;
+        }
+        
+        .profile-card__txt strong {
+            font-weight: 700;
+        }
+        
+        .profile-card-loc {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .profile-card-loc__icon {
+            display: inline-flex;
+            font-size: 27px;
+            margin-right: 10px;
+        }
+        
+        .profile-card-inf {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-top: 35px;
+        }
+        
+        .profile-card-inf__item {
+            padding: 10px 35px;
+            min-width: 150px;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .profile-card-inf__item {
+                padding: 10px 20px;
+                min-width: 120px;
+            }
+        }
+        
+        .profile-card-inf__title {
+            font-weight: 700;
+            font-size: 27px;
+            color: #324e63;
+        }
+        
+        .profile-card-inf__txt {
+            font-weight: 500;
+            margin-top: 7px;
+        }
+        
+        .profile-card-social {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .profile-card-social__item {
+            display: inline-flex;
+            width: 55px;
+            height: 55px;
+            margin: 15px;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            background: #405de6;
+            box-shadow: 0px 7px 30px rgba(43, 98, 169, 0.5);
+            position: relative;
+            font-size: 21px;
+            flex-shrink: 0;
+            transition: all .3s;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .profile-card-social__item {
+                width: 50px;
+                height: 50px;
+                margin: 10px;
+            }
+        }
+        
+        @media screen and (min-width: 768px) {
+            .profile-card-social__item:hover {
+                transform: scale(1.2);
+            }
+        }
+        
+        .profile-card-social__item.facebook {
+            background: linear-gradient(45deg, #3b5998, #0078d7);
+            box-shadow: 0px 4px 30px rgba(43, 98, 169, 0.5);
+        }
+        
+        .profile-card-social__item.twitter {
+            background: linear-gradient(45deg, #1da1f2, #0e71c8);
+            box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.7);
+        }
+        
+        .profile-card-social__item.instagram {
+            background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+            box-shadow: 0px 4px 30px rgba(120, 64, 190, 0.6);
+        }
+        
+        .profile-card-social__item.behance {
+            background: linear-gradient(45deg, #1769ff, #213fca);
+            box-shadow: 0px 4px 30px rgba(27, 86, 231, 0.7);
+        }
+        
+        .profile-card-social__item.github {
+            background: linear-gradient(45deg, #333333, #626b73);
+            box-shadow: 0px 4px 30px rgba(63, 65, 67, 0.6);
+        }
+        
+        .profile-card-social__item.codepen {
+            background: linear-gradient(45deg, #324e63, #414447);
+            box-shadow: 0px 4px 30px rgba(55, 75, 90, 0.6);
+        }
+        
+        .profile-card-social__item.link {
+            background: linear-gradient(45deg, #d5135a, #f05924);
+            box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.6);
+        }
+        
+        .profile-card-social .icon-font {
+            display: inline-flex;
+        }
+        
+        .profile-card-ctr {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+        
+        @media screen and (max-width: 576px) {
+            .profile-card-ctr {
+                flex-wrap: wrap;
+            }
+        }
+        
+        .profile-card__button {
+            background: none;
+            border: none;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 19px;
+            margin: 15px 35px;
+            padding: 15px 40px;
+            min-width: 201px;
+            border-radius: 50px;
+            min-height: 55px;
+            color: #fff;
+            cursor: pointer;
+            backface-visibility: hidden;
+            transition: all .3s;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .profile-card__button {
+                min-width: 170px;
+                margin: 15px 25px;
+            }
+        }
+        
+        @media screen and (max-width: 576px) {
+            .profile-card__button {
+                min-width: inherit;
+                margin: 0;
+                margin-bottom: 16px;
+                width: 100%;
+                max-width: 300px;
+            }
+            .profile-card__button:last-child {
+                margin-bottom: 0;
+            }
+        }
+        
+        .profile-card__button:focus {
+            outline: none !important;
+        }
+        
+        @media screen and (min-width: 768px) {
+            .profile-card__button:hover {
+                transform: translateY(-5px);
+            }
+        }
+        
+        .profile-card__button:first-child {
+            margin-left: 0;
+        }
+        
+        .profile-card__button:last-child {
+            margin-right: 0;
+        }
+        
+        .profile-card__button.button--blue {
+            background: linear-gradient(45deg, #1da1f2, #0e71c8);
+            box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.4);
+        }
+        
+        .profile-card__button.button--blue:hover {
+            box-shadow: 0px 7px 30px rgba(19, 127, 212, 0.75);
+        }
+        
+        .profile-card__button.button--orange {
+            background: linear-gradient(45deg, #d5135a, #f05924);
+            box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.35);
+        }
+        
+        .profile-card__button.button--orange:hover {
+            box-shadow: 0px 7px 30px rgba(223, 45, 70, 0.75);
+        }
+        
+        .profile-card__button.button--gray {
+            box-shadow: none;
+            background: #dcdcdc;
+            color: #142029;
+        }
+        
+        .profile-card-message {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-top: 130px;
+            padding-bottom: 100px;
+            opacity: 0;
+            pointer-events: none;
+            transition: all .3s;
+        }
+        
+        .profile-card-form {
+            box-shadow: 0 4px 30px rgba(15, 22, 56, 0.35);
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            height: 100%;
+            background: #fff;
+            border-radius: 10px;
+            padding: 35px;
+            transform: scale(0.8);
+            position: relative;
+            z-index: 3;
+            transition: all .3s;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .profile-card-form {
+                max-width: 90%;
+                height: auto;
+            }
+        }
+        
+        @media screen and (max-width: 576px) {
+            .profile-card-form {
+                padding: 20px;
+            }
+        }
+        
+        .profile-card-form__bottom {
+            justify-content: space-between;
+            display: flex;
+        }
+        
+        @media screen and (max-width: 576px) {
+            .profile-card-form__bottom {
+                flex-wrap: wrap;
+            }
+        }
+        
+        .profile-card textarea {
+            width: 100%;
+            resize: none;
+            height: 210px;
+            margin-bottom: 20px;
+            border: 2px solid #dcdcdc;
+            border-radius: 10px;
+            padding: 15px 20px;
+            color: #324e63;
+            font-weight: 500;
+            font-family: 'Quicksand', sans-serif;
+            outline: none;
+            transition: all .3s;
+        }
+        
+        .profile-card textarea:focus {
+            outline: none;
+            border-color: #8a979e;
+        }
+        
+        .profile-card__overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            opacity: 0;
+            background: rgba(22, 33, 72, 0.35);
+            border-radius: 12px;
+            transition: all .3s;
+        }
+    </style>
 
-	    	@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
-			html {
-			  position: relative;
-			  overflow-x: hidden !important;
-			}
-
-			* {
-			  box-sizing: border-box;
-			}
-
-			body {
-			  font-family: 'Quicksand', sans-serif;
-			  color: #324e63;
-			}
-
-			a, a:hover {
-			  text-decoration: none;
-			}
-
-			.icon {
-			  display: inline-block;
-			  width: 1em;
-			  height: 1em;
-			  stroke-width: 0;
-			  stroke: currentColor;
-			  fill: currentColor;
-			}
-
-			.wrapper {
-			  width: 100%;
-			  width: 100%;
-			  height: auto;
-			  min-height: 100vh;
-			  padding: 50px 20px;
-			  padding-top: 100px;
-			  display: flex;
-			  background-image: linear-gradient(-20deg, #282829 0%, #5C5C5E 100%);
-			  display: flex;
-			  background-image: linear-gradient(-20deg, #282829 0%, #5C5C5E 100%);
-			}
-			@media screen and (max-width: 768px) {
-			  .wrapper {
-			    height: auto;
-			    min-height: 100vh;
-			    padding-top: 100px;
-			  }
-			}
-
-			.profile-card {
-			  width: 100%;
-			  min-height: 460px;
-			  margin: auto;
-			  box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 1);
-			  background: #fff;
-			  border-radius: 12px;
-			  max-width: 700px;
-			  position: relative;
-			}
-			.profile-card.active .profile-card__cnt {
-			  filter: blur(6px);
-			}
-			.profile-card.active .profile-card-message,
-			.profile-card.active .profile-card__overlay {
-			  opacity: 1;
-			  pointer-events: auto;
-			  transition-delay: .1s;
-			}
-			.profile-card.active .profile-card-form {
-			  transform: none;
-			  transition-delay: .1s;
-			}
-			.profile-card__img {
-			  width: 150px;
-			  height: 150px;
-			  margin-left: auto;
-			  margin-right: auto;
-			  transform: translateY(-50%);
-			  border-radius: 50%;
-			  overflow: hidden;
-			  position: relative;
-			  z-index: 4;
-			  box-shadow: 0px 5px 50px 0px #5C5C5E, 0px 0px 0px 7px rgba(92, 92, 94, 0.5);
-			}
-			@media screen and (max-width: 576px) {
-			  .profile-card__img {
-			    width: 120px;
-			    height: 120px;
-			  }
-			}
-			.profile-card__img img {
-			  display: block;
-			  width: 100%;
-			  height: 100%;
-			  object-fit: cover;
-			  border-radius: 50%;
-			}
-			.profile-card__cnt {
-			  margin-top: -35px;
-			  text-align: center;
-			  padding: 0 20px;
-			  padding-bottom: 40px;
-			  transition: all .3s;
-			}
-			.profile-card__name {
-			  font-weight: 700;
-			  font-size: 24px;
-			  color: #282829;
-			  margin-bottom: 15px;
-			}
-			.profile-card__txt {
-			  font-size: 18px;
-			  font-weight: 500;
-			  color: #324e63;
-			  margin-bottom: 15px;
-			}
-			.profile-card__txt strong {
-			  font-weight: 700;
-			}
-			.profile-card-loc {
-			  display: flex;
-			  justify-content: center;
-			  align-items: center;
-			  font-size: 18px;
-			  font-weight: 600;
-			}
-			.profile-card-loc__icon {
-			  display: inline-flex;
-			  font-size: 27px;
-			  margin-right: 10px;
-			}
-			.profile-card-inf {
-			  display: flex;
-			  justify-content: center;
-			  flex-wrap: wrap;
-			  align-items: flex-start;
-			  margin-top: 35px;
-			}
-			.profile-card-inf__item {
-			  padding: 10px 35px;
-			  min-width: 150px;
-			}
-			@media screen and (max-width: 768px) {
-			  .profile-card-inf__item {
-			    padding: 10px 20px;
-			    min-width: 120px;
-			  }
-			}
-			.profile-card-inf__title {
-			  font-weight: 700;
-			  font-size: 27px;
-			  color: #324e63;
-			}
-			.profile-card-inf__txt {
-			  font-weight: 500;
-			  margin-top: 7px;
-			}
-			.profile-card-social {
-			  margin-top: 25px;
-			  display: flex;
-			  justify-content: center;
-			  align-items: center;
-			  flex-wrap: wrap;
-			}
-			.profile-card-social__item {
-			  display: inline-flex;
-			  width: 55px;
-			  height: 55px;
-			  margin: 15px;
-			  border-radius: 50%;
-			  align-items: center;
-			  justify-content: center;
-			  color: #fff;
-			  background: #405de6;
-			  box-shadow: 0px 7px 30px rgba(43, 98, 169, 0.5);
-			  position: relative;
-			  font-size: 21px;
-			  flex-shrink: 0;
-			  transition: all .3s;
-			}
-			@media screen and (max-width: 768px) {
-			  .profile-card-social__item {
-			    width: 50px;
-			    height: 50px;
-			    margin: 10px;
-			  }
-			}
-			@media screen and (min-width: 768px) {
-			  .profile-card-social__item:hover {
-			    transform: scale(1.2);
-			  }
-			}
-			.profile-card-social__item.facebook {
-			  background: linear-gradient(45deg, #3b5998, #0078d7);
-			  box-shadow: 0px 4px 30px rgba(43, 98, 169, 0.5);
-			}
-			.profile-card-social__item.twitter {
-			  background: linear-gradient(45deg, #1da1f2, #0e71c8);
-			  box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.7);
-			}
-			.profile-card-social__item.instagram {
-			  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-			  box-shadow: 0px 4px 30px rgba(120, 64, 190, 0.6);
-			}
-			.profile-card-social__item.behance {
-			  background: linear-gradient(45deg, #1769ff, #213fca);
-			  box-shadow: 0px 4px 30px rgba(27, 86, 231, 0.7);
-			}
-			.profile-card-social__item.github {
-			  background: linear-gradient(45deg, #333333, #626b73);
-			  box-shadow: 0px 4px 30px rgba(63, 65, 67, 0.6);
-			}
-			.profile-card-social__item.codepen {
-			  background: linear-gradient(45deg, #324e63, #414447);
-			  box-shadow: 0px 4px 30px rgba(55, 75, 90, 0.6);
-			}
-			.profile-card-social__item.link {
-			  background: linear-gradient(45deg, #d5135a, #f05924);
-			  box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.6);
-			}
-			.profile-card-social .icon-font {
-			  display: inline-flex;
-			}
-			.profile-card-ctr {
-			  display: flex;
-			  justify-content: center;
-			  align-items: center;
-			  margin-top: 40px;
-			}
-			@media screen and (max-width: 576px) {
-			  .profile-card-ctr {
-			    flex-wrap: wrap;
-			  }
-			}
-			.profile-card__button {
-			  background: none;
-			  border: none;
-			  font-family: 'Quicksand', sans-serif;
-			  font-weight: 700;
-			  font-size: 19px;
-			  margin: 15px 35px;
-			  padding: 15px 40px;
-			  min-width: 201px;
-			  border-radius: 50px;
-			  min-height: 55px;
-			  color: #fff;
-			  cursor: pointer;
-			  backface-visibility: hidden;
-			  transition: all .3s;
-			}
-			@media screen and (max-width: 768px) {
-			  .profile-card__button {
-			    min-width: 170px;
-			    margin: 15px 25px;
-			  }
-			}
-			@media screen and (max-width: 576px) {
-			  .profile-card__button {
-			    min-width: inherit;
-			    margin: 0;
-			    margin-bottom: 16px;
-			    width: 100%;
-			    max-width: 300px;
-			  }
-			  .profile-card__button:last-child {
-			    margin-bottom: 0;
-			  }
-			}
-			.profile-card__button:focus {
-			  outline: none !important;
-			}
-			@media screen and (min-width: 768px) {
-			  .profile-card__button:hover {
-			    transform: translateY(-5px);
-			  }
-			}
-			.profile-card__button:first-child {
-			  margin-left: 0;
-			}
-			.profile-card__button:last-child {
-			  margin-right: 0;
-			}
-			.profile-card__button.button--blue {
-			  background: linear-gradient(45deg, #1da1f2, #0e71c8);
-			  box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.4);
-			}
-			.profile-card__button.button--blue:hover {
-			  box-shadow: 0px 7px 30px rgba(19, 127, 212, 0.75);
-			}
-			.profile-card__button.button--orange {
-			  background: linear-gradient(45deg, #d5135a, #f05924);
-			  box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.35);
-			}
-			.profile-card__button.button--orange:hover {
-			  box-shadow: 0px 7px 30px rgba(223, 45, 70, 0.75);
-			}
-			.profile-card__button.button--gray {
-			  box-shadow: none;
-			  background: #dcdcdc;
-			  color: #142029;
-			}
-			.profile-card-message {
-			  width: 100%;
-			  height: 100%;
-			  position: absolute;
-			  top: 0;
-			  left: 0;
-			  padding-top: 130px;
-			  padding-bottom: 100px;
-			  opacity: 0;
-			  pointer-events: none;
-			  transition: all .3s;
-			}
-			.profile-card-form {
-			  box-shadow: 0 4px 30px rgba(15, 22, 56, 0.35);
-			  max-width: 80%;
-			  margin-left: auto;
-			  margin-right: auto;
-			  height: 100%;
-			  background: #fff;
-			  border-radius: 10px;
-			  padding: 35px;
-			  transform: scale(0.8);
-			  position: relative;
-			  z-index: 3;
-			  transition: all .3s;
-			}
-			@media screen and (max-width: 768px) {
-			  .profile-card-form {
-			    max-width: 90%;
-			    height: auto;
-			  }
-			}
-			@media screen and (max-width: 576px) {
-			  .profile-card-form {
-			    padding: 20px;
-			  }
-			}
-			.profile-card-form__bottom {
-			  justify-content: space-between;
-			  display: flex;
-			}
-			@media screen and (max-width: 576px) {
-			  .profile-card-form__bottom {
-			    flex-wrap: wrap;
-			  }
-			}
-			.profile-card textarea {
-			  width: 100%;
-			  resize: none;
-			  height: 210px;
-			  margin-bottom: 20px;
-			  border: 2px solid #dcdcdc;
-			  border-radius: 10px;
-			  padding: 15px 20px;
-			  color: #324e63;
-			  font-weight: 500;
-			  font-family: 'Quicksand', sans-serif;
-			  outline: none;
-			  transition: all .3s;
-			}
-			.profile-card textarea:focus {
-			  outline: none;
-			  border-color: #8a979e;
-			}
-			.profile-card__overlay {
-			  width: 100%;
-			  height: 100%;
-			  position: absolute;
-			  top: 0;
-			  left: 0;
-			  pointer-events: none;
-			  opacity: 0;
-			  background: rgba(22, 33, 72, 0.35);
-			  border-radius: 12px;
-			  transition: all .3s;
-			}
-
-
-	    </style>
-
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-    </head>
-    <body class="theme-red">
+</head>
 
-    	<div class="wrapper">
-  
-		  <div class="profile-card js-profile-card">
-		    <div class="profile-card__img">
-		      <img src="images/faceCut_round_1.png" alt="profile card">
-		    </div>
+<body class="theme-red">
 
-		    <div class="profile-card__cnt js-profile-cnt">
-		      <div class="profile-card__name">Annim Banerjee</div>
-		      <div class="profile-card__txt">Embedded IoT Product Developer from <strong>Kolkata, India</strong></div>
-		      <div class="profile-card-loc">
-		        <span class="profile-card-loc__icon">
+    <div class="wrapper">
+
+        <div class="profile-card js-profile-card">
+            <div class="profile-card__img">
+                <img src="images/faceCut_round_1.png" alt="profile card">
+            </div>
+
+            <div class="profile-card__cnt js-profile-cnt">
+                <div class="profile-card__name">Annim Banerjee</div>
+                <div class="profile-card__txt">Embedded Hardware Design Engineer from <strong>Kolkata, India</strong></div>
+                <div class="profile-card-loc">
+                    <span class="profile-card-loc__icon">
 		          <svg class="icon"><use xlink:href="#icon-location"></use></svg>
 		        </span>
 
-		        <span class="profile-card-loc__txt">
+                    <span class="profile-card-loc__txt">
 		          West Bengal, India
 		        </span>
-		      </div>
+                </div>
 
-		      <div class="profile-card-inf">
-		        <div class="profile-card-inf__item">
-		          <div class="profile-card-inf__title">6+</div>
-		          <div class="profile-card-inf__txt">Work Experience</div>
-		        </div>
+                <div class="profile-card-inf">
+                    <div class="profile-card-inf__item">
+                        <div class="profile-card-inf__title">7</div>
+                        <div class="profile-card-inf__txt">Work Experience</div>
+                    </div>
 
-		        <div class="profile-card-inf__item">
-		          <div class="profile-card-inf__title">5+</div>
-		          <div class="profile-card-inf__txt">Exp. As Consultant</div>
-		        </div>
+                    <div class="profile-card-inf__item">
+                        <div class="profile-card-inf__title">6</div>
+                        <div class="profile-card-inf__txt">Exp. As Consultant</div>
+                    </div>
 
-		        <div class="profile-card-inf__item">
-		          <div class="profile-card-inf__title">6</div>
-		          <div class="profile-card-inf__txt">Layer Design</div>
-		        </div>
+                    <div class="profile-card-inf__item">
+                        <div class="profile-card-inf__title">6</div>
+                        <div class="profile-card-inf__txt">HDI Layered Design</div>
+                    </div>
 
-		        <div class="profile-card-inf__item">
-		          <div class="profile-card-inf__title">China</div>
-		          <div class="profile-card-inf__txt">Internationally Worked</div>
-		        </div>
+                    <div class="profile-card-inf__item">
+                        <div class="profile-card-inf__title">China</div>
+                        <div class="profile-card-inf__txt">Internationally Worked</div>
+                    </div>
 
-		        <div class="profile-card-inf__item">
-		          <div class="profile-card-inf__title">Globally</div>
-		          <div class="profile-card-inf__txt">Clients Served</div>
-		        </div>
+                    <div class="profile-card-inf__item">
+                        <div class="profile-card-inf__title">/annimbanerjee</div>
+                        <div class="profile-card-inf__txt">@Fiverr</div>
+                    </div>
 
-		      </div>
+                </div>
 
-		      <div class="profile-card-social">
-		        <a href="https://www.facebook.com/annim.banerjee" class="profile-card-social__item facebook" target="_blank">
-		          <span class="icon-font">
+                <div class="profile-card-social">
+                    <a href="https://www.facebook.com/annim.banerjee" class="profile-card-social__item facebook" target="_blank">
+                        <span class="icon-font">
 		              <svg class="icon"><use xlink:href="#icon-facebook"></use></svg>
 		          </span>
-		        </a>
+                    </a>
 
-		        <a href="https://twitter.com/annimbanerji" class="profile-card-social__item twitter" target="_blank">
-		          <span class="icon-font">
+                    <a href="https://twitter.com/annimbanerji" class="profile-card-social__item twitter" target="_blank">
+                        <span class="icon-font">
 		              <svg class="icon"><use xlink:href="#icon-twitter"></use></svg>
 		          </span>
-		        </a>
+                    </a>
 
-		        <a href="https://www.instagram.com/annimbanerjee/" class="profile-card-social__item instagram" target="_blank">
-		          <span class="icon-font">
+                    <a href="https://www.instagram.com/annimbanerjee/" class="profile-card-social__item instagram" target="_blank">
+                        <span class="icon-font">
 		              <svg class="icon"><use xlink:href="#icon-instagram"></use></svg>
 		          </span>
-		        </a>
+                    </a>
 
 
-		        <a href="https://github.com/pixma" class="profile-card-social__item github" target="_blank">
-		          <span class="icon-font">
+                    <a href="https://github.com/pixma" class="profile-card-social__item github" target="_blank">
+                        <span class="icon-font">
 		              <svg class="icon"><use xlink:href="#icon-github"></use></svg>
 		          </span>
-		        </a>
+                    </a>
 
-		        <a href="https://pixma.github.io/docs/AnnimBanerjeeResume_CVII.pdf" class="profile-card-social__item link" target="_blank">
-		          <span class="icon-font">
+                    <a href="https://www.youtube.com/channel/UC9ZzBvn6THoVP7NzTLMU1YQ" style="background-color: white;" target="_blank">
+                        <span class="icon-font">
+							
+							<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+								width="64.000000pt" height="45.000000pt" viewBox="0 0 64.000000 45.000000"
+								preserveAspectRatio="xMidYMid meet">
+
+								<g transform="translate(0.000000,45.000000) scale(0.100000,-0.100000)"
+								fill="#000" stroke="none">
+								<path d="M118 442 c-82 -10 -98 -29 -111 -135 -7 -59 -7 -110 1 -168 15 -117
+								24 -125 179 -134 155 -10 371 1 400 20 41 27 47 53 47 201 0 151 -7 179 -56
+								205 -25 13 -371 21 -460 11z m225 -170 c42 -24 77 -45 77 -47 0 -3 -141 -84
+								-162 -93 -5 -2 -8 40 -8 93 0 53 3 95 8 93 4 -1 42 -22 85 -46z"/>
+								</g>
+							</svg>
+		          		</span>
+                    </a>
+
+                    <a href="https://pixma.github.io/docs/AnnimBanerjeeResume_CVII.pdf" class="profile-card-social__item link" target="_blank">
+                        <span class="icon-font">
 		              <svg class="icon"><use xlink:href="#icon-link"></use></svg>
 		          </span>
-		        </a>
+                    </a>
 
-		      </div>
+                </div>
 
-		      <div class="profile-card-ctr">
-		        <button class="profile-card__button button--blue js-know-btn">Know More</button>
-		        <button class="profile-card__button button--orange js-karmisium-btn">Karmisium.com</button>
-		      </div>
-		      <center>
-	    		Thank you - <a href="https://codepen.io/JavaScriptJunkie/pen/jvRGZy">Theme</a>
-	    		<br>
-	    		<a href="mailto:annim.banerjee@outlook.com">annim.banerjee@outlook.com </a> | <a href="mailto:contact@karmisium.com">contact@karmisium.com</a> | <a href="mailto:mail@annimbanerjee.in"> mail@annimbanerjee.in </a>
-	    		<br>
-	    		Annim Banerjee - 2020
-	    	</center>
-		    </div>
-		  </div>
+                <div class="profile-card-ctr">
+                    <button class="profile-card__button button--blue js-know-btn">Know More</button>
+                    <button class="profile-card__button button--orange js-karmisium-btn">Karmisium.com</button>
+                </div>
+                <center>
+                    Thank you - <a href="https://codepen.io/JavaScriptJunkie/pen/jvRGZy">Theme</a>
+                    <br>
+                    <a href="mailto:annim.banerjee@outlook.com">annim.banerjee@outlook.com </a> | <a href="mailto:contact@karmisium.com">contact@karmisium.com</a> | <a href="mailto:mail@annimbanerjee.in"> mail@annimbanerjee.in </a>
+                    <br> Annim Banerjee - 2020
+                </center>
+            </div>
+        </div>
 
-		</div>
+    </div>
 
-		<svg hidden="hidden">
+    <svg hidden="hidden">
 		  <defs>
 		    <symbol id="icon-codepen" viewBox="0 0 32 32">
 		      <title>codepen</title>
@@ -545,7 +615,8 @@
 		      <path d="M9.6 26.528c-0.032 0.128-0.224 0.192-0.384 0.128-0.192-0.064-0.288-0.192-0.256-0.32s0.224-0.192 0.416-0.128c0.128 0.032 0.256 0.192 0.224 0.32v0z"></path>
 		      <path d="M10.912 26.624c0 0.128-0.16 0.256-0.352 0.256s-0.352-0.096-0.352-0.224c0-0.128 0.16-0.256 0.352-0.256 0.192-0.032 0.352 0.096 0.352 0.224v0z"></path>
 		      <path d="M12.128 26.4c0.032 0.128-0.096 0.256-0.288 0.288s-0.352-0.032-0.384-0.16c-0.032-0.128 0.096-0.256 0.288-0.288s0.352 0.032 0.384 0.16v0z"></path>
-		    </symbol>
+			</symbol>
+		
 
 		    <symbol id="icon-location" viewBox="0 0 32 32">
 		      <title>location</title>
@@ -585,13 +656,13 @@
 		  </defs>
 		</svg>
 
-		
-		
-	
-	
-		<script src="plugins/jquery/jquery.min.js"></script>
-		<script src="plugins/bootstrap/js/bootstrap.js"></script>
-		<!-- <script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+
+
+
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.js"></script>
+    <!-- <script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
 		<script src="plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
 		<script src="plugins/bootstrap-notify/bootstrap-notify.js"></script>
 		<script src="plugins/node-waves/waves.js"></script>
@@ -609,44 +680,57 @@
 		<script src="js/pages/medias/image-gallery.js"></script>
 		<script src="js/admin.js"></script>
 		<script src="js/pages/ui/notifications.js"></script> -->
-		<!-- <script src="js/pages/index.js"></script> -->
-		<!-- <script src="js/demo.js"></script>
+    <!-- <script src="js/pages/index.js"></script> -->
+    <!-- <script src="js/demo.js"></script>
 		<script src="https://use.fontawesome.com/3bea3a632a.js"></script> -->
-		<script type="text/javascript">
-		// Shorthand for $( document ).ready()
-		$(function() {
-			  
-			var btnKnow = document.querySelector('.js-know-btn');
-			var btnKarmisium = document.querySelector('.js-karmisium-btn');			  
 
-			btnKnow.addEventListener('click',function (e) {
-			var win = window.open('http://annimbanerjee.in/', '_blank');
-			if (win) {
-			    //Browser has allowed it to be opened
-			    win.focus();
-			} else {
-			    //Browser has blocked it
-			    alert('Please allow popups for this website');
-			}			  
-			});
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171726331-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-			btnKarmisium.addEventListener('click',function (e) {
-			var win = window.open('http://karmisium.com/', '_blank');
-			if (win) {
-			    //Browser has allowed it to be opened
-			    win.focus();
-			} else {
-			    //Browser has blocked it
-			    alert('Please allow popups for this website');
-			}			  
-			});
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-		});
+        gtag('config', 'UA-171726331-1');
+    </script>
 
-		</script>
-  
+    <script type="text/javascript">
+        // Shorthand for $( document ).ready()
+        $(function() {
 
-    
-	</body>
-	
+            var btnKnow = document.querySelector('.js-know-btn');
+            var btnKarmisium = document.querySelector('.js-karmisium-btn');
+
+            btnKnow.addEventListener('click', function(e) {
+                var win = window.open('http://annimbanerjee.in/', '_blank');
+                if (win) {
+                    //Browser has allowed it to be opened
+                    win.focus();
+                } else {
+                    //Browser has blocked it
+                    alert('Please allow popups for this website');
+                }
+            });
+
+            btnKarmisium.addEventListener('click', function(e) {
+                var win = window.open('http://karmisium.com/', '_blank');
+                if (win) {
+                    //Browser has allowed it to be opened
+                    win.focus();
+                } else {
+                    //Browser has blocked it
+                    alert('Please allow popups for this website');
+                }
+            });
+
+        });
+    </script>
+
+
+
+</body>
+
 </html>
